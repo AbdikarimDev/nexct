@@ -55,9 +55,8 @@
                 </div>
             </div>
             <!-- Mobile SideBar -->
-            <div
-                class="lg:hidden relative md:hidden flex h-full w-full  justify-between items-center px-4 mt-[17px]">
-                <div class="bg-[#5EED71] w-full p-4 flex justify-between items-center rounded-[10px]">
+            <div class="lg:hidden relative md:hidden flex h-full w-full  justify-between items-center px-4 mt-[17px]">
+                <div class="bg-[#4D4D4D] w-full p-4 flex justify-between items-center rounded-[10px]">
                     <div class="w-full max-w-[191px] h-[34px]">
                         <img src="./assets/Logo.svg" alt="" />
                     </div>
@@ -66,7 +65,7 @@
                     </button>
                 </div>
             </div>
-            <div id="mobileMenu" class="absolute bg-[#5EED71] top-[0px] left-0 right-0 hidden">
+            <div id="mobileMenu" class="absolute bg-[#4CAF4F] top-[0px] left-0 right-0 hidden">
                 <div class="flex justify-between px-4 py-2 items-center z-10 relative">
                     <img src="./assets/Logo.svg" width="50" height="34" alt="" />
                     <button id="closeMenuBtn">
@@ -98,15 +97,17 @@
             </div>
         </nav>
         <!-- hero section -->
-        <section class="flex flex-col bg-[#F5F7FA] w-full justify-center items-center  py-3 h-full" id="home">
-            <div class="flex justify-around  lg:my-[240px] md:my-32 my-3 items-center w-full">
+        <section class="flex flex-col bg-[#F5F7FA] w-full justify-center items-center lg:px-0 md:px-0 px-4  py-3 h-full"
+            id="home">
+            <div
+                class="flex lg:flex-row md:flex-row flex-col justify-around  lg:my-[240px] md:my-32 my-3 items-center w-full">
                 <!-- texts -->
                 <div class="flex flex-col justify-center items-start gap-6">
-                    <h1 class="font-[600] text-[#4D4D4D] text-[64px]">
-                        Lessons and insights <br />
+                    <h1 class="font-[600] text-[#4D4D4D] lg:text-[64px] md:text-[64px]  text-[44px]">
+                        Lessons and insights <br class="lg:flex md:flex hidden" />
                         <span class="text-[#4CAF4F]">from 8 years</span>
                     </h1>
-                    <p class="text-[#717171] text-[16px] font-[400]">
+                    <p class="text-[#717171] lg:text-[16px] md:text-[16px] text-[14px] font-[400]">
                         Where to grow your business as a photographer: site or social
                         media?
                     </p>
@@ -128,21 +129,27 @@
             </div>
         </section>
         <!-- Service -->
-        <section id="services" class="flex flex-col bg-[#fff] w-full justify-center items-center   py-3 h-full">
-            <div>
+        <section id="services"
+            class="flex flex-col bg-[#fff] w-full justify-center items-center  lg:px-0 md:px-0 px-4 py-3 h-full">
+            <div class="w-full h-full">
                 <!-- our clients -->
                 <div class="flex justify-center items-center gap-3 flex-col">
                     <h1 class="font-[600] text-[#4D4D4D] text-[36px]">Our Clients</h1>
-                    <p class="font-[400] text-[#717171] text-[16px]">We have been working with some Fortune 500+ clients
+                    <p
+                        class="font-[400] text-[#717171] lg:text-normal md:text-normal text-center lg:text-[16px] md:text-[16px] text-[14px]">
+                        We have been working with some Fortune 500+ clients
                     </p>
-                    <img src="./assets/Clients Logos.png" width="1152" alt="">
+                    <img src="./assets/Clients Logos.png" class="w-full max-w-[1152px]" alt="">
 
-                    <h1 class="font-[600] text-[#4D4D4D] text-center text-[36px]">Manage your entire community <br> in a
+                    <h1 class="font-[600] text-[#4D4D4D] text-center lg:text-[36px] md:text-[36px] text-[26px]">Manage
+                        your entire community <br class="lg:flex md:flex hidden"> in a
                         single system</h1>
-                    <p class="font-[400] text-[#717171] text-[16px]">Who is Nextcent suitable for?
+                    <p class="font-[400] text-[#717171] lg:text-[16px] md:text-[16px] text-[14px]">Who is Nextcent
+                        suitable for?
                     </p>
                     <!-- CARDS -->
-                    <div class="flex justify-around items-center w-full mt-10">
+                    <div
+                        class="flex lg:flex-row md:flex-row flex-col justify-around lg:gap-14 md:gap-14 gap-4 items-center w-auto mt-10">
                         <!-- CARD ONE -->
                         <div
                             class="flex flex-col justify-center items-center w-full max-w-[299px] rounded-[8px] px-3 py-8 shadow-xl">
@@ -251,13 +258,15 @@
                         </div>
                     </div>
                     <!-- the unseen -->
-                    <div class="flex justify-between my-10 w-full items-center ">
-                        <div> <img src="./assets/Frame 35.png" width="442" alt="">
+                    <div class="flex lg:flex-row md:flex-row flex-col justify-around my-10 w-full items-center ">
+                        <div>
+                            <img src="./assets/Frame 35.png" width="442" alt="">
                         </div>
                         <div class="flex flex-col gap-3 justify-center items-start">
-                            <h1 class="font-[600] text-[#4D4D4D] text-[36px]">The unseen of spending three <br> years at
+                            <h1 class="font-[600] text-[#4D4D4D] text-[36px]">The unseen of spending three <br
+                                    class="lg:flex md:flex hidden"> years at
                                 Pixelgrade</h1>
-                            <p class="font-[400] w-[601px] text-[#717171] text-[16px]">
+                            <p class="font-[400] w-full max-w-[601px] text-[#717171] text-[16px]">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed
                                 accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed
                                 porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
@@ -272,15 +281,16 @@
             </div>
         </section>
         <!-- helping a local section -->
-        <section class="w-full justify-around  flex-col" id="features">
-            <div class="bg-[#F5F7FA] w-full h-full py-14 flex justify-around items-center">
+        <section class="w-full justify-around  flex-col " id="features">
+            <div
+                class="bg-[#F5F7FA] lg:px-0 md:px-0 px-4 w-full h-full py-14 flex lg:flex-row md:flex-row flex-col  justify-around items-center">
                 <div>
                     <h1 class="text-[#4D4D4D] text-[46px] font-[600]">Helping a local <br> <span
                             class="text-[#4CAF4F]">business reinvent itself</span></h1>
                     <p class="text-[#4D4D4D] text-[15px] font-[400]">We reached here with our hard work and dedication
                     </p>
                 </div>
-                <div class="grid grid-cols-2 gap-10">
+                <div class="grid grid-cols-2 lg:gap-10 md:gap-10 gap-5">
                     <!-- MEMBERS -->
                     <div>
                         <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -328,13 +338,14 @@
                 </div>
             </div>
             <!-- the unseen -->
-            <div class="flex justify-around py-10 items-center ">
+            <div
+                class="flex lg:flex-row md:flex-row flex-col lg:px-0 md:px-0 px-4  gap-4 justify-around py-10 items-center ">
                 <div>
                     <img src="./assets/pana.png" width="442" alt="">
                 </div>
                 <div class="flex flex-col gap-3 justify-center items-start">
                     <h1 class="font-[600] text-[#4D4D4D] text-[36px]">How to design your site footer like we did</h1>
-                    <p class="font-[400] w-[601px] text-[#717171] text-[16px]">
+                    <p class="font-[400] w-full max-w-[601px] text-[#717171] text-[16px]">
                         Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie,
                         massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices
                         mollis. In hac habitasse platea dictumst. Vivamus vehicula leo dui, at porta nisi facilisis
@@ -348,13 +359,14 @@
             </div>
         </section>
         <!--    meet all customer -->
-        <section class="w-full justify-around  flex-col" id="products">
-            <div class="bg-[#F5F7FA] w-full h-full py-14 flex justify-around items-center">
-                <div>
-                    <img src="./assets/image 9.png" width="326" alt="">
+        <section class="w-full  justify-around  flex-col" id="products">
+            <div
+                class="bg-[#F5F7FA] w-full h-full lg:px-0 md:px-0 px-4 py-14 flex lg:flex-row md:flex-row flex-col justify-around  items-center">
+                <div class="  ">
+                    <img src="./assets/image 9.png" class="w-full max-w-[326px] " alt="">
                 </div>
-                <div class="flex flex-col gap-3 justify-center items-start">
-                    <p class="font-[400] w-[601px] text-[#717171] text-[16px]">
+                <div class="flex flex-col gap-3 justify-center w-full lg:w-auto md:w-auto ">
+                    <p class="font-[400] w-full max-w-[601px] text-[#717171] text-[16px]">
                         Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
                         tincidunt ullamcorper. Proin eu enim metus. Vivamus sed libero ornare, tristique quam in,
                         gravida enim. Nullam ut molestie arcu, at hendrerit elit. Morbi laoreet elit at ligula molestie,
@@ -366,34 +378,36 @@
 
                     <h1 class="font-[600] text-[#4CAF4F] text-[20px]">Tim Smith</h1>
 
-                    <p class="font-[400] w-[601px] text-[#717171] text-[16px]">British Dragon Boat Racing Association
+                    <p class="font-[400] w-[601px]   text-[#717171] text-[16px]">British Dragon Boat Racing Association
                     </p>
-                    <div class="flex justify-center gap-4 py-3 items-center">
+                    <div class="flex lg:flex-row md:flex-row flex-col   justify-center gap-4 py-3 items-center">
                         <img src="./assets/Frame 10.png" width="439" alt="">
-                        <div class="flex justify-center items-center gap-2">
-                            <button class="text-[#4CAF4F]  font-[600] text-[16px]  ">Meet all customers</button>
+                        <button
+                            class="text-[#4CAF4F]  gap-2   flex items-center lg:justify-center md:justify-center justify-start font-[600] text-[16px]  ">Meet all customers
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="M16 16L19.2929 12.7071C19.6834 12.3166 19.6834 11.6834 19.2929 11.2929L16 8M19 12L5 12"
                                     stroke="#4CAF4F" stroke-width="1.5" stroke-linecap="round" />
                             </svg>
+                        </button>
 
-                        </div>
+
+
 
                     </div>
                 </div>
             </div>
         </section>
         <!-- caring -->
-        <section class="w-full flex justify-center  py-20 items-center bg-white " id="testimonials">
+        <section class="w-full flex justify-center  lg:px-0 md:px-0 px-4 py-20 items-center bg-white " id="testimonials">
             <div class="w-full flex justify-center items-center flex-col gap-3">
-                <h1 class="font-[600] text-[#4D4D4D] text-[36px]">Caring is the new marketing</h1>
-                <p class="font-[400] w-[601px] text-center text-[#717171] text-[16px]">The Nexcent blog is the best
+                <h1 class="font-[600] lg:text-normal md:text-normal text-center text-[#4D4D4D] text-[36px]">Caring is the new marketing</h1>
+                <p class="font-[400] w-full max-w-[601px] text-center text-[#717171] text-[16px]">The Nexcent blog is the best
                     place to read about the latest membership insights, trends and more. See who's joining the
                     community, read about how our community are increasing their membership income and lot's more.​</p>
                 <!-- three imgs -->
-                <div class="flex justify-center mt-10 items-center gap-5">
+                <div class="flex lg:flex-row md:flex-row flex-col  justify-center mt-10 items-center gap-5">
                     <img src="./assets/1.png" width="368" alt="">
                     <img src="./assets/2.png" width="368" alt="">
                     <img src="./assets/3.png" width="368" alt="">
@@ -403,7 +417,7 @@
         <!-- Pellentesque suscipit fringilla libero eu. -->
         <section class="bg-[#F5F7FA] w-full h-full py-14 flex justify-center items-center" id="faq">
             <div class="flex flex-col justify-center items-center">
-                <h1 class="font-[600] text-[#263238] text-center text-[64px]">Pellentesque suscipit <br> fringilla
+                <h1 class="font-[600] text-[#263238] text-center  lg:text-[64px] md:text-[64px]  text-[44px]">Pellentesque suscipit <br class="lg:flex md:flex hidden"> fringilla
                     libero eu.</h1>
                 <button
                     class="flex justify-center items-center gap-2 bg-[#4CAF4F] text-[#FFFFFF] font-[500] text-[16px] py-2 px-4 rounded">Get
@@ -417,14 +431,14 @@
             </div>
         </section>
         <footer>
-            <div class="bg-[#263238] w-full h-full py-14 flex justify-around items-center">
+            <div class="bg-[#263238] w-full h-full py-14 gap-3 flex flex-col justify-around items-center">
                 <div class="flex flex-col justify-center items-start gap-5">
                     <img src="./assets/Logo.png" alt="Nexcent Logo" width="191">
                     <p class="text-[14px] text-[#F5F7FA] font-[400]">Copyright © 2020 Nexcent ltd. <br> All rights
                         reserved</p>
                     <img src="./assets/Social Links.png" width="176" alt="">
                 </div>
-                <div class="flex justify-around items-start gap-20">
+                <div class="flex flex-wrap justify-around items-start lg:gap-20 md:gap-20 gap-4">
                     <!-- COMPANY -->
                     <div class="flex flex-col gap-2">
                         <h1 class="font-[600] text-[#FFFFFF] text-[20px]">Company</h1>
